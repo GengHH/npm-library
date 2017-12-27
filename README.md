@@ -4,7 +4,7 @@ npm的网络代理和淘宝镜像的设置
 
 ---
 
-## 一，网络代理设置
+## 一、网络代理设置
 ### （一）添加代理
 
 **npm config set proxy http://serverId:port**
@@ -24,17 +24,17 @@ npm的网络代理和淘宝镜像的设置
 
 **npm config set registry "http://registry.npmjs.org/"**
 
-## （二）taobao镜像设置
+## 二、taobao镜像设置
 
-### 1.临时使用
+### （一）临时使用
 
 **npm --registry https://registry.npm.taobao.org install express**
 
-### 2.永久使用，方法一
+### （二）永久使用，方法一
 
 **npm install -g cnpm --registry=https://registry.npm.taobao.org**
 
-### 3.永久使用，方法二
+### （三）永久使用，方法二
 
 （建议使用-[它是只修改npm的registry配置，并不像2中一样下载cnpm这个项目]）
 
@@ -51,9 +51,9 @@ cnpm config get registry 或  cnpm info express/other packageName
 
 npm config get registry  或  npm info express/other packageName
 
-### 4.使用方法
+### （四）使用方法
 
-（4.2指的是永久型方法一）
+（4.1指的是永久型方法一）
 
 **cnpm install packageName**
 
