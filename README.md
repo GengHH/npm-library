@@ -6,19 +6,25 @@ npm的网络代理和淘宝镜像的设置
 
 ## 一，网络代理设置
 ### （一）添加代理
+
 **npm config set proxy http://serverId:port**
 
 ### （二）添加https代理
+
 **npm config set https-proxy http://serverId:port**
 
 
 ### （三）添加需要验证的代理
+
 **npm config set proxy http://username:possword@serverId:port**
+
 **npm config set https-proxy http://username:possword@serverId:port**
+
 ### （四）如果代理不支持https的话需要修改npm存放package的网站地址。
+
 **npm config set registry "http://registry.npmjs.org/"**
 
-## （五）taobao镜像设置
+## （二）taobao镜像设置
 
 ### 1.临时使用
 
